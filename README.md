@@ -18,7 +18,7 @@
 - Don't Create Database By Default I will Pass the Database name IjonaDB
 - jdbc:mysql://localhost:3306/IjonaDB?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false
 - Don't Forget to change your username and password  for your local
-- 
+
 ```
     server.port=8088
     jdbc:mysql://localhost:3306/IjonaDB?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false
@@ -34,6 +34,10 @@
 -   INSERT INTO role_master (id,name,status,is_delete) VALUES (2,'EMPLOYEE_FRONTEND',1,0);
 
 -   INSERT INTO role_master (id,name,status,is_delete) VALUES (3,'EMPLOYEE_BACKEND',1,0); 
+
+-   After that Do Sign Up Use Below Dummy Details
+-   Then Do Sign In
+-   Then Save the Employees In the Database
 
 
 
